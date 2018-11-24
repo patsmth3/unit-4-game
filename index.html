@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Crystals Collector Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--jQuery-->
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="titleDiv">
+            <h1> Crystals Collector</h1>
+        </div>
+
+        <div id="rulesDiv">
+
+        <p>You will be given a random number at the start of the game.  There are four crystals below.</p> 
+
+        <p>By clicking on a crystal you will add a specific amount of points to your total score.</p>  
+
+        <p>You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</p>
+
+        <p>The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+        
+        </div>
+    </div>
+<br>
+
+<div id="scoreCard">
+    
+    <!-- gameCounters -->
+
+        <div id="randomNumber">
+            0
+        </div>
+        <div id="gameCounters">
+            <p>
+                Wins: 0
+            </p>
+            <p>	
+                Losses: 0
+            </p>
+        </div> 
+    </div> 
+    
+    <!-- crystalButtons -->
+
+    <div id="crystalButtons">
+
+        <div>
+            <img id="buttonBlue" class="crystal-images" src="assets/images/gem-blue.jpg" alt="Blue Gem">
+        </div> 
+
+        <div>
+            <img id="buttonRed" class="crystal-images" src="assets/images/gem-red.jpg" alt="Red Gem">
+        </div> 
+
+        <div>
+            <img id="buttonPurple" class="crystal-images" src="assets/images/gem-purple.jpg" alt="Purple Gem">
+        </div>
+
+        <div>
+            <img id="buttonWhite" class="crystal-images" src="assets/images/gem-white.jpg" alt="White Gem">
+        </div> 
+    </div>
+     
+    <div id="crystalTotalLabel">
+        Your total score is:
+    </div> 
+    
+    <div id="crystalTotal">
+        0
+    </div> 
+</div> 
+
+</body>
+</html>

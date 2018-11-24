@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/geobackground.png");
+    background-color: #cccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 125%;
+    }
+
+form{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+    }
+footer{
+    clear:both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #6666;
+    border-top-color: #4aaaa5;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-bottom-color: #cccc;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    z-index: 99;
+    text-align: center;
+    font-size: 12px;
+    }
+
+    h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+    h3{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    
+    input[type=text] {
+        color: #777777;
+        width: 100%;
+        padding: 6px 6px;
+        margin: 8px 0;
+    }
+    
+    
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px 25px;
+        cursor: pointer;
+    }
+    
+    
+    p{
+        margin-bottom: 15px;
+    }
+    #container {
+        padding-top: 10px;
+        padding-bottom: 75px;
+        width: 100%;
+        max-width: 1028px;
+        margin: 0 auto 0 auto;
+        overflow: auto;
+    }
+    
+    
+    #titleDiv{
+        width: 300px;
+        background-color: #d2691e;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 25px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffffff;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+    
+    
+    #rulesDiv{
+        width: 100%;
+        max-width: 900px;
+        background-color: #ffffff;
+        margin-top: 20px;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: #008000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+    
+    
+    #randomNumber{
+        width: 250px;
+        height: 125px;
+        background-color: #3cb371;
+        font-size: 36px;
+        margin-top: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: #000000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        float: left;
+    }
+    
+    
+    #gameCounters{
+        width: 125px;
+        height: 125px;
+        background-color: #48d1cc;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: #000000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        float: left;
+    }
+    
+    
+    #crystalButtons{
+        clear: both;
+    }
+    
+    
+    #crystalTotalLabel{
+        clear: both;
+        width: 250px;
+        height: 35px;
+        background-color: #20b2aa;
+        font-size: 18px;
+        margin-top: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: #000000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        float: left;
+    }
+    
+    
+    #crystalTotal{
+        clear:both;
+        width: 250px;
+        height: 60px;
+        background-color: #20b2aa;
+        font-size: 30px;
+        margin-top: 15px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        color: #000000;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        float: left;
+    }
+    
+    
+    #blueGem{
+        background-image: url("../assets/images/gem-blue-75.jpg");
+        float: left;
+    
+    
+    }
+    /* Classes */
+    
+    
+    .crystal-images{
+        width: 50px:
+        height: 50px;
+        margin-top: 10px;
+        margin-right: 20px;
+        border: 1px black solid;
+        float: left;
+    }
+    
+    
+    .headerfonts{
+        font-family: 'Georgia', 'Times', Times New Roman, serif;	
+    }
+    
+    
+    .topsection{
+        width: 960px;
+        margin: 0 auto 0 auto;
+    
+    
+    }	
+    
+    
+    .masthead{
+        width: 100%;
+        height: 75px;
+        background-color: #ffffff;
+        border-top-color:  #cccccc;
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-bottom-color:  #cccccc;
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+    }
+    
+    
+    
