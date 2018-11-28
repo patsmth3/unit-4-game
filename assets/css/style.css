@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../images/geobackground.png");
+    background-image: url("../images/crystal1.jpg");
     background-color: #cccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -59,7 +59,7 @@ footer{
     
     
     input[type=button], input[type=submit], input[type=reset] {
-        background-color: #4CAF50;
+        background-color: #64c2df;
         border: none;
         color: white;
         padding: 16px 32px;
@@ -84,7 +84,7 @@ footer{
     
     #titleDiv{
         width: 300px;
-        background-color: #d2691e;
+        background-color: #64c2df;
         padding-top: 25px;
         padding-left: 10px;
         padding-bottom: 25px;
@@ -105,7 +105,7 @@ footer{
         padding-top: 25px;
         padding-left: 10px;
         padding-bottom: 5px;
-        color: #008000;
+        color: #000980;
         border-style: solid;
         border-width: 1px;
         border-color: black;
@@ -115,7 +115,7 @@ footer{
     #randomNumber{
         width: 250px;
         height: 125px;
-        background-color: #3cb371;
+        background-color: #64c2df;
         font-size: 36px;
         margin-top: 15px;
         padding-top: 5px;
@@ -132,7 +132,7 @@ footer{
     #gameCounters{
         width: 125px;
         height: 125px;
-        background-color: #48d1cc;
+        background-color: #64c2df;
         font-size: 18px;
         margin-left: 10px;
         margin-top: 15px;
@@ -156,7 +156,7 @@ footer{
         clear: both;
         width: 250px;
         height: 35px;
-        background-color: #20b2aa;
+        background-color: #64c2df;
         font-size: 18px;
         margin-top: 15px;
         padding-top: 5px;
@@ -174,7 +174,7 @@ footer{
         clear:both;
         width: 250px;
         height: 60px;
-        background-color: #20b2aa;
+        background-color: #64c2df;
         font-size: 30px;
         margin-top: 15px;
         padding-top: 5px;
