@@ -3,33 +3,22 @@
 }
 body{
     background-image: url("../images/crystal1.jpg");
+    background-repeat: no-repeat;
     background-color: #cccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 125%;
+    background-size: 100% 113%;
     }
+div {
+    margin: 0 auto;
+    width: 386px;
+}
 
 form{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         line-height: 24px;
-    }
-footer{
-    clear:both;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 35px;
-    background-color: #6666;
-    border-top-color: #4aaaa5;
-    border-top-width: 4px;
-    border-top-style: solid;
-    border-bottom-color: #cccc;
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-    z-index: 99;
-    text-align: center;
-    font-size: 12px;
     }
 
     h1{
@@ -94,6 +83,7 @@ footer{
         border-style: solid;
         border-width: 1px;
         border-color: black;
+        
     }
     
     
@@ -198,7 +188,7 @@ footer{
     
     
     .crystal-images{
-        width: 50px:
+        width: 50px;
         height: 50px;
         margin-top: 10px;
         margin-right: 20px;
